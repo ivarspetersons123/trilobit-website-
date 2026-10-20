@@ -1,0 +1,9 @@
+TRILOBIT STATISKA 01.07
+
+Izmaiņas: noņemta prototipa dzeltenā josla; kājenē "Visas tiesības aizsargātas"; atjaunota impressum.html veidne.
+
+Formspree adrese saglabāta: https://formspree.io/f/meaedzkn
+
+SVARĪGI: Pirms publiskas komercdarbības aizpildi Impressum ar īsto juridisko uzņēmuma nosaukumu, adresi un kontaktinformāciju.
+
+Netlify manuālai izvietošanai atpako ZIP un ievelc mapi TRILOBIT_STATISKA_01_07.

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Impressum | TRILOBIT</title>
+<link href="assets/css/style1.css" rel="stylesheet"/>
+<link href="assets/css/style2.css" rel="stylesheet"/>
+<link href="assets/css/style3.css" rel="stylesheet"/>
+<style>
+    .impressum-main{padding:72px 0 100px;min-height:65vh}
+    .impressum-main h1{font-size:clamp(36px,5vw,56px);margin:10px 0 32px}
+    .impressum-panel{max-width:780px;padding:30px;border:1px solid var(--line);background:var(--panel)}
+    .impressum-panel h2{font-size:20px;margin:28px 0 8px;color:var(--accent)}
+    .impressum-panel h2:first-child{margin-top:0}
+    .impressum-panel p{margin:12px 0;line-height:1.65;overflow-wrap:anywhere}.impressum-panel strong{color:var(--text);font-weight:650}
+    .impressum-panel .placeholder{color:var(--muted)}
+    .impressum-notice{max-width:780px;margin:20px 0;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+<header>
+<div class="nav">
+<a class="logo" href="index.html">TRILOBIT<small>MOTOCIKLI</small></a>
+<nav class="links"><a data-de="← Zurück zur Startseite" data-lv="← Atpakaļ uz sākumlapu" href="index.html">← Zurück zur Startseite</a><select aria-label="Impressum language" id="legal-language"><option value="de">DE</option><option value="lv">LV</option></select></nav>
+<a class="pill" href="index.html">SĀKUMLAPA</a>
+</div>
+</header>
+<main class="impressum-main">
+<div class="wrap">
+<div class="eyebrow" data-de="Rechtliche Angaben" data-lv="Juridiskā informācija">Rechtliche Angaben</div>
+<h1>Impressum</h1>
+<div class="impressum-panel">
+<h2 data-de="Angaben gemäß § 5 DDG — Anbieter" data-lv="Pakalpojuma sniedzēja informācija saskaņā ar DDG 5. pantu">Angaben gemäß § 5 DDG — Anbieter</h2>
+<p><strong data-de="Unternehmensname:" data-lv="Uzņēmuma nosaukums:">Unternehmensname:</strong> TRILOBIT</p>
+<p><strong data-de="Verantwortliche Person:" data-lv="Atbildīgā persona:">Verantwortliche Person:</strong> Ivars Petersons</p>
+<p><strong data-de="Anschrift:" data-lv="Adrese:">Anschrift:</strong> Am Hutberg 35, 02899 Schönau-Berzdorf auf dem Eigen, Deutschland</p>
+<p><strong>E-Mail:</strong> <a href="mailto:de.balticpoint@protonmail.com">de.balticpoint@protonmail.com</a></p>
+<p><strong data-de="Telefon:" data-lv="Tālrunis:">Telefon:</strong> <a href="tel:+37127005929">+371 27005929</a></p>
+<h2 data-de="Umsatzsteuer-Identifikationsnummer (USt-IdNr.)" data-lv="PVN maksātāja identifikācijas numurs">Umsatzsteuer-Identifikationsnummer (USt-IdNr.)</h2>
+<p data-de="Nicht vergeben" data-lv="Nav piešķirts">Nicht vergeben</p>
+<h2 data-de="Verantwortlich für den Inhalt" data-lv="Atbildīgais par saturu">Verantwortlich für den Inhalt</h2>
+<p>Ivars Petersons</p>
+</div>
+</div>
+</main>
+<footer><div class="wrap"><div class="row"><span>© TRILOBIT MOTOCIKLI</span><span><a class="legal-link" data-de="Startseite" data-lv="Sākumlapa" href="index.html">Startseite</a> · <a aria-current="page" class="legal-link" href="impressum.html">Impressum</a></span></div></div></footer>
+<script>(function(){const el=document.getElementById('legal-language');const v=new URLSearchParams(location.search).get('lang');el.value=v==='lv'?'lv':'de';function apply(){document.documentElement.lang=el.value;document.querySelectorAll('[data-de][data-lv]').forEach(n=>n.textContent=n.dataset[el.value]);}el.addEventListener('change',apply);apply();})();</script></body>
+</html>
