@@ -1,0 +1,44 @@
+{
+  "bikes": [
+    {
+      "id": "pan-america",
+      "name": "Harley-Davidson Pan America Special",
+      "category": "adventure",
+      "year": "2022",
+      "mileage": "",
+      "price": "Cena pēc pieprasījuma",
+      "description": "Harley-Davidson Pan America Special — piedzīvojumu un tālo ceļojumu motocikls ar Revolution Max 1250 dzinēju. Fotogrāfijās redzams alumīnija aizmugurējais koferis, motocikla vadības ierīces un aprīkojuma detaļas. Precīzs nobraukums un pārdošanas cena tiek precizēti.",
+      "image": "assets/images/harley_pan_america.jpg",
+      "hidden": false,
+      "sold": false,
+      "gallery": [
+        "assets/images/harley_pan_america.jpg",
+        "assets/images/harley_real_1.jpg",
+        "assets/images/harley_real_2.jpg",
+        "assets/images/harley_real_3.jpg",
+        "assets/images/harley_real_4.jpg"
+      ],
+      "engine_cc": "1252 cm³",
+      "power": "150 ZS (ražotāja nominālā jauda)"
+    },
+    {
+      "id": "nt1100",
+      "name": "Honda NT1100",
+      "category": "adventure",
+      "year": "",
+      "mileage": "",
+      "price": "Cena pēc pieprasījuma",
+      "description": "Tūrisma motocikls · Dati tiks papildināti",
+      "image": "assets/images/honda_nt1100.jpg",
+      "hidden": false,
+      "sold": false,
+      "gallery": [
+        "assets/images/honda_nt1100.jpg",
+        "assets/images/honda_nt1100_detail2.jpg",
+        "assets/images/honda_nt1100_detail3.jpg"
+      ],
+      "engine_cc": "",
+      "power": ""
+    }
+  ]
+}
